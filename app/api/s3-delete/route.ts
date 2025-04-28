@@ -21,7 +21,7 @@ export async function DELETE(request: Request) {
 
     // Delete object from S3
     const deleteParams = {
-      Bucket: "mys3projectbucketamine1",
+      Bucket: "tpcloudmelek",
       Key: fileKey,
     };
 

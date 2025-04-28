@@ -5,7 +5,7 @@ import { getSignedUrl } from "@aws-sdk/s3-request-presigner";
 const REGION = "us-east-1";
 const ACCESS_KEY = "AKIAXTORPV3SKASW3HW5";
 const SECRET_KEY = "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";
-const BUCKET_NAME = "mys3projectbucketamine1";
+const BUCKET_NAME = "tpcloudmelek";
 
 if (!REGION || !ACCESS_KEY || !SECRET_KEY || !BUCKET_NAME) {
   throw new Error("Missing AWS S3 environment variables.");
